@@ -1,0 +1,1144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.z{
+    color: #5a5a5a;
+}
+@media screen and (min-width:300px) {
+    /* First Page*/
+    .one h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: blue;
+        margin-left: -4vh;
+        font-size: 1.8rem;
+    }
+    .one .ab{
+        width: 75%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 90% auto;
+        background-color: #fbd49b;
+        padding: 0.8vh;
+        border-radius: 1rem;
+    }
+    .ab input{
+        background-color: #fbd49b;
+       border: none;
+       outline: none;
+    }
+    .one ul{
+        text-transform: uppercase;
+        list-style: none;
+        font-size: 0.9rem;
+        padding: 1vh;
+       display: flex;
+       justify-content: space-around;
+    }
+    .b{
+        color: #9c6006;
+    }
+    .two span{
+        margin-left: 3vh;
+        margin-top: 3vh;
+        display: inline-block;
+        background-color: #fbd49b;
+    }
+    .two h3{
+       text-align: start;
+       margin: 1vh 1.5vh;
+        color: blue;
+    }
+    .two h1{
+        margin-left: 1.5vh;
+    }
+    .two br{
+        display: none;
+    }
+    .two p{
+        margin: 2vh 1.5vh;
+    }
+    .c{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .d h5 br{
+        display: none;
+    }
+    .d{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 30% auto;
+        align-items: center;
+    }
+    .im img{
+        margin-left: 2vh;
+    }
+    a{
+        text-decoration: none;
+    }
+    .two button{
+        display: grid;
+        grid-template-columns: 80% auto;
+        justify-content: center;
+        align-items: center;
+        width: 8rem;
+        font-size: 1rem;
+        border-radius: 1rem;
+        background-color: #fbd49b;
+        margin-left: 1.5vh;
+        margin-top: 1vh;
+    }
+    .e{
+        background-color: #fbd49b;
+        border-radius: 50%;
+        width: 80%;
+        margin: 1.5vh auto;
+        height: 25rem;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .e img{
+        position: absolute;
+        height: 100%;
+        width: 50%;
+    }
+    /*second page*/
+    .three{
+        padding: 1rem;  
+        border-radius: 0.5rem;
+        width: 85%;
+        margin: auto;
+        background-color: #fbd49b;
+    }
+    .g{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1vh;
+    }
+    .f{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center;
+    }
+    .f img{
+        width: 65%;
+        border-radius: 1rem;
+        background-color: white;
+    }
+    .four{
+        width: 85%;
+        margin: 3vh auto;
+        height: 80vh;
+        background: #fbe0d2;
+    }
+    .colour img{
+        padding-top: 5vh;
+        padding-left: 10vh;
+    }
+    .h img{
+        margin-top: -14vh;
+        padding-right: 11vh;
+    }
+    .four h2{
+        text-align: center;
+    }
+    /* third page*/
+    .five{
+        height: 18.5rem;
+        width: 70%;
+        margin: 2vh auto;
+        padding: 5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-radius: 1rem;
+        background: #fbe0d2;
+    }
+    .five img{
+        height: 9rem;
+        margin-top: -25vh;
+        margin-bottom: -1.5vh;
+    }
+    .five h4{
+        text-align: center;
+    }
+    .back1{
+        box-sizing: border-box;
+        width: 70%;
+        height: 2.3vh;
+        background-color: #bccfb2;
+        margin-top: 20.9vh;
+        margin-left: 2.0vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 95% 95% 0% 0%;
+    }
+   .shop{
+        padding-bottom: 1vh;
+        margin-top: -8vh;
+    }
+    .shop img{
+        margin-left: -1vh;
+    }
+    .ground1{
+        background-color: #8ba87c;
+        width: 70%;
+        border-radius: 50%;
+    }
+    #back2{
+        background-color: #d0653c;
+    }
+    #ground2{
+        background-color: #bd4625;
+    }
+    #ground2 img{
+        height: 10rem;
+        margin-left: -5vh;
+        margin-bottom: -1.5vh;
+    }
+    /* fouth page*/
+    .i{
+        width: 90%;
+        margin: auto;
+        background-color: #fbd49b;
+        padding: 1vh;
+    }
+    .seven{
+        padding: 1vh 2vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;   
+    }
+    .seven img{
+        width: 90%;
+        height: 20vh;
+        background-color: white;
+        border-radius: 1rem;
+    }
+    .eight{
+        padding: 1.5vh;
+    }
+    .eight p{
+        padding-top: 1vh;
+    }
+    .eight p br{
+        display: none;
+    }
+    .j{
+        padding: 1vh 0;
+    }
+    .k{
+        display: grid;
+        grid-template-columns: 10% auto;
+        padding: 0.5vh 0;
+    }
+    .k img{
+        height: 1rem
+    }
+    .eight button{
+        margin: 0 5vh;
+        width: 58%;
+        display: grid;
+        grid-template-columns: 80% auto;
+        align-items: center;
+        border-radius: 1rem;
+    }
+    .eight button img{
+        margin-left: -2vh;
+    }
+    /* fifth page*/
+    .nine{
+        width: 90%;
+        margin: auto;
+    }
+    .nine h1 span{
+        color: #9c6006;
+    }
+    .nine h1{
+        padding: 2vh 0;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .nine p{
+        text-align: center;
+        /*padding: 1vh 1.5vh 1.5vh 1.5vh;*/
+    }
+    .nine p br{
+        display: none;
+    }
+    .m ul{
+        list-style: none;
+        width: 85%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .o{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .o img{
+        height: 9rem;
+        width: 60%;
+        border-radius: 0.8rem;
+        background-color: #fbd49b;
+        margin: 1vh auto;
+        padding: 1vh;
+    }
+    .o h4{
+        text-align: center;
+    }
+    .star{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        align-items: center;
+        color: yellow;
+    }
+    .star p{
+        margin: 0 -1.6vh;
+    }
+    .p{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .p h3{
+        color: blue;
+    }
+    .p h5{
+        color: green;
+    }
+    .np{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .np img{
+        height: 8rem;
+    }
+    /*sixth page*/
+    .q{
+        background-color: #fbd49b;
+        width: 90%;
+        margin: 2vh auto;
+        padding: 1vh;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .q h1,h3{
+        text-align: center;
+        padding: 0.4vh;
+    }
+    .q button{
+        width: 70%;
+        margin: 2vh auto;
+        display: grid;
+        grid-template-columns: 80% auto;
+        border-radius: 1.5rem;
+        padding: 0.2rem;
+        align-items: center;
+    }
+    .q button img{
+        margin-left: -1.6vh;
+    }
+    .q span img{
+        height: 14rem;
+        align-items: center;
+    }
+    /*seventh page*/
+    .s{
+        padding: 2vh 0;
+        width: 90%;
+        margin: 1vh auto;
+       border-radius: 0.4rem;
+       background: #fbe0d2;
+    }
+    .s h1 span{
+        color: #9c6006;
+    }
+    .s h1{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .s p{
+        padding: 1.5vh;
+    }
+    .v{
+       background-color: white;
+        display: grid;
+        grid-template-columns: 25% auto;
+        width: 90%;
+        margin: 1.5vh auto;
+        border-radius: 0.4rem;
+    }
+    .v img{
+        height: 4rem;
+    }
+    .star1{
+        width: 70%;
+        margin-left: 1.2vh;
+        margin-top: -2.5vh;
+    }
+    /*eightth page*/
+    .y h2{
+        text-align: center;
+    }
+    .w{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .x img{
+        height: 11rem;
+        width: 8rem;
+    }
+    .x{
+        height: 16.2rem;
+        width: 9.2rem;
+        background: #fbe0d2;
+        border-radius: 0.4rem;
+        margin: 0.5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /*ninth page*/
+    .aa{
+        width: 90%;
+        margin: 2vh auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fbd49b;
+        padding: 2vh 0;
+    }
+    .aa .aabb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bb{
+        display: flex;
+        flex-direction: column;
+    }
+    .aa .bb img{
+        height: 17rem;
+        width: 13rem;
+        background-color: white;
+        margin: 1vh;
+        border-radius: 1rem;
+    }
+    /*tenth page*/
+    .map{
+        width: 80%;
+        margin: 5vh auto;
+        justify-content: center;
+    }
+    .map iframe{
+        height: 15rem;
+        width: 99%;
+    }
+    /*eleven*/
+    .one p{
+        margin: 0 2vh 2vh 2vh;
+    }
+    .cc .ab{
+        margin-left: 0vh;
+    }
+    .dd{
+        display: flex;
+        flex-direction: column;        
+    }
+    .dd .z{
+        text-align: center;
+        margin-bottom: 1vh;
+    }
+    .ca{
+        margin-left: 3vh;
+    }
+    /*second one*/
+    .ff{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ff img{
+        height: 12rem;
+        width: 8rem;
+        background-color: #fbd49b;
+        padding: 1vh;
+        margin: 1vh;
+        border-radius: 1rem;
+    }
+    .gg{
+        display: grid;
+    }
+    .gg img{
+        height: 30rem;
+        width: 70%;
+        justify-self: center;
+        margin-top: -10vh;
+    }
+    .hh h1,p{
+        margin: 1.5vh;        
+    }
+    .hh p br{
+        display: none;
+    }
+    .hh h4{
+        text-align: center;
+    }
+    .hh h4 span{
+        color: blue;
+    }
+    .jj{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        margin: 2vh auto;
+    }
+    .jj img{
+        height: 2rem;
+    }
+    .kk{
+        display: grid;
+        grid-template-columns:repeat(7, 1fr);
+        width: 80%;
+        padding-bottom: 2vh;
+        margin-left: 2vh;
+    }
+    .over{
+        height: 100vh;
+        width: 90%;
+        overflow-y: scroll;
+    }
+    .over h2{
+        margin: 2vh;
+    }
+    .ll{
+        height: 1.5rem;
+        width: 1.5rem;
+        border-radius: 2rem;  
+    }
+    .mm{
+        background: #fbd49b;
+    }
+    .nn{
+        background: blue;
+    }
+    .oo{
+        background: #9c6006;
+    }
+    .pp{
+        background: #191001;
+    }
+    .qq{
+        background: #024c2c;
+    }
+    .rr{
+        background: #2e0225;
+    }
+    .ss{
+        background: #076fd7;
+    }
+    .uu{
+        margin-left: 2vh;
+    }
+    .ww{
+        margin-left: 3vh;
+    }
+    /*second second page*/
+    .ooo h3{
+        margin-top: 3vh;
+        margin-bottom: 1vh;
+    }
+    .ooo{
+        width: 90%;
+        margin: auto;
+    }
+    table{
+        border: 2px solid black;
+        width: 99%;
+        table-layout: fixed;
+        margin: auto;
+    }
+    table td{
+        border: 1px solid black;
+        width: 99%;
+        margin: auto;
+        padding: 1.4rem;
+        height: 0.3125;
+    }
+    th{
+        border: 1px solid black;
+        width: 99%;
+        margin: auto;
+        padding: 1.4rem;
+        height: 0.3125;
+    }
+    /* second third page*/
+    .ffy{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button img{
+        height: 2rem;
+        width: 2rem;
+    }
+    .ffy button{
+        width: 9rem;
+        display: grid;
+        grid-template-columns: 80% auto;
+        align-items: center;
+        border-radius: 1rem;
+        padding: 0.5vh;
+        background-color: #fbd49b;
+    }
+    .ppp{
+        display: none;
+    }
+    .rrr h2{
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .rrr .star1 p{
+       margin-top: 4vh;
+       margin-left: 5.5vh;
+    }
+    .sss .star1 p{
+        margin-left: -3vh;
+    }
+    .sss br{
+        display: none;
+    }
+    .container{
+        height: 20px;
+        width: 150px;
+        background: rgba(251,212,155,255);
+        position: relative;    /*optional*/
+        border-radius: 1rem;
+    }
+    .skill{
+        height: 20px;
+        width: 100px;
+        background-color: rgba(38,132,255,255);
+       position: absolute;  /*optional*/
+       border-radius: 1rem;
+    }
+    .starr{
+        padding-top: 0.5rem;
+    }
+    .stars{
+        display: grid;
+        grid-template-columns: 35% auto;
+        align-items: center;
+        padding: 0.7rem 0;
+    }
+    .star6{
+        width: 85%;
+    }
+    .star4{
+        width: 35%;
+    }
+    .star3{
+        width: 50%;
+    }
+    .star2{
+        width: 8%;
+    }
+    .star11{
+        width: 13%;
+    }
+    .sss .v .star1{
+        margin-left: 1.8rem;
+    }
+    .sss .v{
+        border: 2px solid black;
+    }
+}
+@media screen and (min-width:700px)
+{
+.d{
+    display: grid;
+    grid-template-columns: 10% auto;
+
+    }
+.two button{
+    margin-left: 5vh;
+}
+.three{
+    width: 60%;
+    margin: 5vh auto;
+}
+.four{
+    width: 45%;
+    margin: 5vh auto;
+    grid-template-columns: repeat(2,1fr);
+}
+.five{
+    width: 50%;
+    margin: 5vh auto;
+    padding: 3vh;
+}
+.o{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.np{
+    width: 95%;
+    margin: auto;
+    padding: 2vh;
+}
+.np .star{
+    width: 60%;
+    margin: auto;
+}
+.np .p{
+    width: 70%;
+    margin: auto;
+}
+.r button{
+    width: 85%;
+}
+/*.t{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}*/
+/* second*/
+.xx{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.stars{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 23% auto;
+}
+.sss{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.star9{
+    width: 20%;
+    margin: auto;
+}
+.xy{
+    margin-left: 4vh;
+}
+.over{
+    width: 95%;
+    margin: auto;
+    height: 31rem;
+    overflow-y: scroll;
+}
+}
+@media screen and (min-width:1200px) {
+    /* First Page*/
+    .one{
+        padding: 4vh;
+        display: grid;
+        grid-template-columns: 30% 33% auto;
+        align-items: center;
+    }
+    .two{
+        width: 90%;
+        margin-left: 4vh;
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+    .two h3{
+        padding: 2vh 0;
+        font-size: 2rem;
+    }
+    .two p br{
+        display: block;
+    }
+    .c{
+        width: 85%;
+        padding: 1.5vh 0 2vh 0; 
+        display: grid;
+        grid-template-columns: 37% 33% auto;
+    }
+    .d{
+        display: grid;
+        grid-template-columns: 27% auto;
+    }
+    .d h5 br{
+        display: block;
+    }
+    .idd h5{
+        margin-left: 2.2vh;
+    }
+    .e{
+        height: 70vh;
+        width: 85%;  
+        position: relative;
+    }
+    .e img{
+        height: 42rem;
+        width: 12rem;
+        position: absolute;
+    }
+    /* second page*/
+    .three{
+        margin: 5vh;
+        display: grid;
+        grid-template-columns: 30% auto;
+        width: 85%;
+        margin: auto;
+    }
+    .f{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .f img{
+        width: 95%;
+    }
+    .four{
+        height: 50vh;
+        width: 90%;
+        margin: 5vh auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .four img{
+        width: 20%;
+        height: 28vh;
+    }
+    .h img{
+        width: 150%;
+        margin-bottom: -3vh;
+        margin-left: -5vh;
+        height: 19rem;
+    }
+    .four h2{
+        font-size: 1.7rem;
+    }
+    .colour{
+        width: 90%;
+        margin: auto;
+        display: flex;
+       flex-direction: row;
+        
+        height: 10vh;
+        border-radius: 1rem;  
+        margin-bottom: -15vh;
+        display: inline-block;
+    }
+    /* third page*/
+    .six{
+        width: 70%;
+        margin: 5vh auto;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    .five{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+    .shop{
+        margin-top: -12vh;
+        /*margin-bottom: -8rem;*/
+    }
+
+    .back1{
+        height: 1.8rem;
+    }
+    /* fourth page*/
+    .i{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        width: 90%;
+        margin: 5vh auto;
+    }
+    .seven p img{
+        height: 6rem;
+    }
+    .seven p {
+        width: 30%;
+        margin-top: -0.1vh;
+    }
+    .seven .l {
+        width: 90%;
+        margin-bottom: -5vh;
+        margin-left: -14vh;
+    }
+    .seven .l img{
+        height: 9.5rem;
+    }
+   .seven h5 {
+        width: 90%;
+        margin-top: -5.5vh;
+        margin-right: -14vh;
+    }
+    .seven h5 img{
+        height: 9.5rem;
+    }
+    .seven .n{
+      /*  width: 64%;*/
+        margin-left: -5.8vh;
+    }
+    .seven .n img{
+      margin-top: 3vh;
+        height: 5rem;
+        width: 47%;
+    }
+    .eight button{
+        width: 30%;
+    }
+    /*fivth page*/
+    .o{
+        width: 99%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .star{
+        width: 70%;
+        margin: auto;
+    }
+    .p{
+        font-size: 0.8rem;
+    }
+    /*sixth page*/
+    .r h1,h2{
+        font-size: 2.4rem;
+    }
+    .q{
+        width: 80%;
+        margin: 8vh auto 3vh auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .r button{
+        width: 39%;
+    }
+    /*seventh page*/
+    .s{
+        width: 90%;
+        margin: 5vh auto;
+    }
+    .t{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .u{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 70%;
+        margin: auto;  
+    }
+    .v{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .star1{
+        margin-top: -4vh;
+    }
+    .v{
+        display: grid;
+        grid-template-columns: 10% auto;
+    }
+    /*eight page*/
+    .y h2{
+        margin: 6vh 0;
+    }
+    .w{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .x img{
+        width: 90%;
+        margin: auto;
+       /* height: 14.9rem;
+        width: 15.4rem;*/
+    }
+    .x{
+       
+       height: 19rem;
+        width: 18rem;
+    }
+    /*ninth page*/
+    .aa{
+        width: 90%;
+        margin: 5vh auto;
+        display: grid;
+        grid-template-columns: 30% auto;
+    }
+    .aa .bb img{
+        width: 95%;
+        margin: auto;
+    }
+    .bb{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        margin: auto;
+    }
+
+    /*tenth page*/
+    .map iframe{
+        height: 25rem;
+    }
+    /* eleven th page*/
+    .cc .ca .one{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }.cc{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 40% auto;   
+        align-items: center;
+    }
+    .dd{
+        margin-top: -5vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .cc ul{
+        list-style: none;
+    }
+    /* second one */
+    .abc{
+        display: grid;
+        grid-template-columns: 55% auto;
+    }
+    .ee{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ff img{
+        height: 7rem;
+        width: 4.5rem;
+    }
+    .gg img{
+        height: 35rem;
+    }
+   /* .over{
+        height: 31rem;
+        overflow-y: scroll;
+    }*/
+    .hh h1{
+        font-size: 2rem;
+    }
+    /*second second page*/
+    .ooo{
+        width: 90%;
+        margin: 2vh auto;
+    }
+    .ooo h3{
+        font-size: 2rem;
+        text-align: start;
+    }
+    .op br{
+        display: none;
+    }
+    .ooo .op{
+        margin: 4vh auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+    .nnn table{
+        border: 2px solid black;
+        width: 90%;
+        margin: auto;
+    }
+    .nnn table th,td{
+        width: 90%;
+        margin: auto;
+        padding: 1.5rem;
+        height: 2px;
+    }
+    /* second third page*/
+    .zz h3{
+        text-align: start;
+        margin-left: 4vh;
+        font-size: 1.8rem;
+        padding-bottom: 6vh;
+    }
+    .xx{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .ffy .ff img{
+        height: 12rem;
+        width: 9rem;
+    }
+    /* second fourth page*/
+    .ppp{
+        display: block;
+        width: 90%;
+        margin: 6vh auto;   
+    }
+    .ppp table{
+        width: 95%;
+        margin: auto;
+        table-layout: fixed;
+    }
+    /* second fiveth page*/
+    .rrr{
+        width: 90%;
+        margin: 5vh auto;
+        display: grid;
+        grid-template-columns: 30% auto;
+    }
+    /*.sss{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }*/
+    .v{
+        display: grid;
+        grid-template-columns: 17% auto; 
+    }
+    .sss .star1{
+        margin-top: -4vh;
+    }
+    .rrr .star9{
+        
+        margin: 2vh 0 2vh 8vh;
+    }
+}
